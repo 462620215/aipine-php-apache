@@ -15,7 +15,7 @@ RUN cd /usr/local/lib/php/extensions/no-debug-non-zts-20131226 \
     && wget http://brandpano.oss-cn-shenzhen.aliyuncs.com/extensions/mysqli.so \
     && wget http://brandpano.oss-cn-shenzhen.aliyuncs.com/extensions/opcache.so \
     && wget http://brandpano.oss-cn-shenzhen.aliyuncs.com/extensions/pdo_mysql.so \
-    && wget http://brandpano.oss-cn-shenzhen.aliyuncs.com/extensions/zlib.so \
+    && wget http://brandpano.oss-cn-shenzhen.aliyuncs.com/extensions/zlib.so
     
 WORKDIR /work
 
