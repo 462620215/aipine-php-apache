@@ -6,4 +6,4 @@ WORKDIR /work
 
 EXPOSE 80
 
-ENTRYPOINT service httpd start
+ENTRYPOINT apachectl start
