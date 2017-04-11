@@ -3,8 +3,8 @@ MAINTAINER wangsh<462620215@qq.com>
 
 COPY php.ini /usr/local/etc/php
 
-RUN sudo apt-get update \
-    && sudo apt-get install -y wget
+RUN apt-get update \
+    && apt-get install -y wget
 
 RUN cd /usr/local/lib/php/extensions/no-debug-non-zts-20131226 \
     && wget http://brandpano.oss-cn-shenzhen.aliyuncs.com/extensions/gd.so \
